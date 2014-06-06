@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PHP server</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <form action="" id="form_id">
+        First name: <input name="fname" id="fname" type="text"><br>
+        Last Name: <input name="lname" id="lname" type="text"><br>
+        Patronymic name: <input name="pname" id="pname" type="text"><br>
+
+        Age: <input type="number" name="age" step="1" value="13"><br>
+
+        <br>Gender:<br>
+        <input type="radio" name="gender" id="gender" value="M" checked> Male<br>
+        <input type="radio" name="gender" id="gender" value="W"> Female<br>
+
+        <br>Request:<br>
+        <input type="radio" name="type_request" id="type_request" value="GET" checked> GET<br>
+        <input type="radio" name="type_request" id="type_request" value="POST"> POST<br><br>
+        <input type="button" onclick="send();" value="Отправить"><br>
+    </form>
+    <div id="text_under_form">TEMP</div>
+</body>
+</html>
