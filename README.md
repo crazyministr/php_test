@@ -1,6 +1,3 @@
-php_test
-========
-
 PHP server. Send form by means of ajax
 
 run server: python -m SimpleHTTPServer 1313
